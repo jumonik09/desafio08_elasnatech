@@ -1,0 +1,165 @@
+html{
+   font-size: 36px; 
+   background: #F2B29B;
+}
+
+.header_logo{
+    background: #D98566;
+    position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+/*
+.teste {
+    background-color: green;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}*/
+
+.menu {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.menu ul li { 
+    display: inline;
+    font-family: 'Times New Roman', 'Times', 'serif'; 
+}
+
+.menu ul li a {
+    padding: 8px 10px; 
+    display: inline-block;
+    background-color:#D98566; 
+    color: black; 
+    text-decoration: none; 
+    border-bottom:3px solid #F2F0F0; 
+    font-size:medium;
+}
+
+.menu ul li a:hover { 
+    background-color: #F2B29B;
+    color: #6D6D6D;
+    border-bottom:3px solid #F2F0F0;
+}
+
+.rodape {
+	position: relative;
+	bottom: 0;
+    left: 0;
+    background-color: #D98566;
+    width: 100%;
+    height: 40px ;
+    font-size: medium;
+    font-family: 'Times New Roman', 'Times, serif';
+    text-align: center;
+    text-transform: uppercase;
+    color: #F2F0F0;
+    text-shadow: #D98566;
+}
+
+.linha_final {
+    background-color: #F2F0F0;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    /*overflow: hidden;
+    flex-flow: row wrap; */
+}
+
+.child1 {
+    background: url(fotos_marilyn/marilyn-monroe3.JPG);
+    flex-grow: 2;
+    height: 300px;
+    background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+    
+}
+
+.child1:hover {
+    opacity: 0.15;
+}
+
+.child2:hover{
+    opacity: 0.15;
+}
+
+.child3:hover{
+    opacity: 0.15;
+}
+
+
+.child4:hover{
+    opacity: 0.16;
+}
+
+.child5:hover{
+    opacity: 0.15;
+
+}
+
+
+.child2 {
+    background: url(fotos_marilyn/marilyn1.JPG);
+    flex-grow: 1;
+    height: 300px;
+    background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.child3 {
+    background: url(fotos_marilyn/marilyn-monroe_chapeu.JPG);
+    flex-grow: 2;
+    height: 300px;
+    background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.child4 {
+    background: url(fotos_marilyn/Marilyn_Monroe1.jpg);
+    flex-grow: 4;
+    height: 400px;
+    background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.child5 {
+    background: url(fotos_marilyn/marilyn4.JPG);
+    flex-grow: 1;
+    height: 300px;
+    background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
